@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/continueWatchingButton"
+        android:text="continue watching"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"></ListView>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rename"
+            android:text="rename"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:text="delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/share"
+            android:text="share"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
